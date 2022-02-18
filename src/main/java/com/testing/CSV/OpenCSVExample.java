@@ -18,6 +18,7 @@ public class OpenCSVExample {
             }
         }catch (Exception e){
             e.printStackTrace();
+           // System.err.println("Error - nu exista fisierul !!!!! ");
         }finally {
             try{
                 csvReader.close();
