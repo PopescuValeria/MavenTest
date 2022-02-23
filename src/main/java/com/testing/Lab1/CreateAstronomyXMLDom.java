@@ -1,4 +1,4 @@
-package com.testing.Xml.dom;
+package com.testing.Lab1;
 
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;

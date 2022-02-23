@@ -17,6 +17,7 @@ public class QueryXmlFileDemo {
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(inputFile);
             doc.getDocumentElement().normalize();
+
             System.out.print("Root element : ");
             System.out.println(doc.getDocumentElement().getNodeName());
             NodeList nList = doc.getElementsByTagName("supercars");

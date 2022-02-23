@@ -51,7 +51,6 @@
             <deep-sky-object>Space satellites</deep-sky-object>
         </deep-sky-objects>
     </celestial-objects>
-
     <celestial-phenomena>
         <celestial-phenomenon>Eclipses</celestial-phenomenon>
         <celestial-phenomenon>Occultations</celestial-phenomenon>
