@@ -1,0 +1,23 @@
+<class>
+    <student rollno="393" newattr = "Attr3Values">
+        <firstname>dinkar</firstname>
+        <lastname>kad</lastname>
+        <nickname>dinkar</nickname>
+        <marks>85</marks>
+        <status>married</status>
+    </student>
+
+    <student rollno="493" newattr="Attr3Value">
+        <firstname>Vaneet</firstname>
+        <lastname>Gupta</lastname>
+        <nickname>Vini</nickname>
+        <marks>95</marks>
+    </student>
+
+    <student rollno="593" newattr="Attr333Value">
+        <firstname>Jasvir</firstname>
+        <lastname>Singn</lastname>
+        <nickname>jazz</nickname>
+        <marks>90</marks>
+    </student>
+</class>

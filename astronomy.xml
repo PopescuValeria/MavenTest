@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<universe>
+    <celestial-objects>
+        <solar-system>
+            <celestial-object type="moon">Moon</celestial-object>
+            <celestial-object type="planets">
+                <planets>
+                    <big-planets>
+                        <planet satellites="0" type="telluric planet">Mercury</planet>
+                        <planet satellites="0" type="telluric planet">Venus</planet>
+                        <planet satellites="1" type="telluric planet">Earth</planet>
+                        <planet satellites="2" type="telluric planet">Mars</planet>
+                        <planet satellites="79" type="gas giants">Jupiter</planet>
+                        <planet satellites="82" type="gas giant">Saturn</planet>
+                        <planet satellites="27" type="ice giant">Uranus</planet>
+                        <planet satellites="14" type="ice giant">Neptune</planet>
+                    </big-planets>
+                    <dwarf-planets>
+                        <planet>Ceres</planet>
+                        <planet>Pluto</planet>
+                        <planet>Eris</planet>
+                    </dwarf-planets>
+                </planets>
+            </celestial-object>
+            <celestial-object type="nebulae">
+                <nebulae>
+                    <nebula>Omega Nebula</nebula>
+                    <nebula>Horsehead nebula</nebula>
+                    <nebula>Cat's Eye Nebula</nebula>
+                    <nebula>Red Rectangle Nebula</nebula>
+                </nebulae>
+            </celestial-object>
+            <celestial-object type="asteroids">Asteroids
+                <asteroid diameter-percent-of-the-moon="15%" orbital-radius="2.36">Vesta</asteroid>
+                <asteroid diameter-percent-of-the-moon="28%" orbital-radius="2.77">Ceres</asteroid>
+                <asteroid diameter-percent-of-the-moon="16%" orbital-radius="2.77">Pallas</asteroid>
+                <asteroid diameter-percent-of-the-moon="12%" orbital-radius="3.14">Hygiea</asteroid>
+            </celestial-object>
+            <celestial-object type="comets">Comets
+                <comet cycle="76 years" date-of-discovery="239 av.J.-C." last-appearance="1986">Halley Comet</comet>
+                <comet cycle="?" date-of-discovery="44 av.J.-C." last-appearance="44 av.J.-C.">Caesar's Comet</comet>
+                <comet cycle="3.3 years" date-of-discovery="1786" last-appearance="2016">Encke</comet>
+                <comet cycle="133.28 years" date-of-discovery="1862" last-appearance="1992">Swift-Tuttle</comet>
+                <comet cycle="18000 years" date-of-discovery="1995" last-appearance="1997">Hale-Bopp</comet>
+                <comet cycle="14000 years" date-of-discovery="1996" last-appearance="1996">Hyakutake</comet>
+            </celestial-object>
+            <celestial-object type="meteorites">Meteorites</celestial-object>
+        </solar-system>
+        <deep-sky-objects>
+            <deep-sky-object>Double stars</deep-sky-object>
+            <deep-sky-object>Space satellites</deep-sky-object>
+        </deep-sky-objects>
+    </celestial-objects>
+    <celestial-phenomena>
+        <celestial-phenomenon>Eclipses</celestial-phenomenon>
+        <celestial-phenomenon>Occultations</celestial-phenomenon>
+    </celestial-phenomena>
+</universe>

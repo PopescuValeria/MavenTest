@@ -42,6 +42,7 @@ public class BasicExcelReader {
                 }
                 System.out.println("");
             }
+            fileInputStream.close();
         }catch (Exception e){
             e.printStackTrace();
         }

@@ -11,7 +11,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.Arrays;
 
 public class CSVWriter {
-    private static final String SAMPLE_CSV_FILE = "new_users.csv";
+    private static final String SAMPLE_CSV_FILE = "new_users2.csv";
 
     public static void main(String[] args) throws IOException {
         try(
