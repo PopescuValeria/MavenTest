@@ -24,6 +24,7 @@ public class Lab1XPath {
             Document doc = dBuilder.parse(inputFile);
             doc.getDocumentElement().normalize();
 
+
             NodeList node = doc.getElementsByTagName(nodeName);
             int i = 0;
 
@@ -111,8 +112,7 @@ public class Lab1XPath {
         return bool;
     }
 
-    public static boolean getListOfValues(NodeList nodeName, String path, int index){
-        boolean bool = false;
+    public static void getListOfValues(NodeList nodeName, String path, int index){
         try{
 
             File inputFile = new File(path);
@@ -135,7 +135,5 @@ public class Lab1XPath {
         }catch (Exception e){
             e.printStackTrace();
         }
-
-        return bool;
     }
 }
